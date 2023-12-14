@@ -1,0 +1,136 @@
+.header {
+    width: 100%;
+    height: 550px;
+    background-size: 100%;
+    background-image: url('/public/img/4.jpg');
+    }
+
+    .redopacity {
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .redopacity h1 {
+        font-size: 1.7rem;
+    }
+    
+
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.title-section h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title-section hr {
+    border-top: thin solid red;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.seleccion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seleccion-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #c10101;
+
+}
+
+.seleccion-item h3 {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.seleccion-item p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.1rem;
+}
+
+.produccion {
+  display: flex;
+  justify-content: space-around;  
+}
+
+.produccion-item{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    
+}
+
+.produccion-item img {
+    width: 100%;
+}
+
+.produccion-item p {
+    margin: 20px 0px;
+    color: #7b7b7b;
+
+}
+
+.produccion-item a{
+    color: #c10101;
+    text-decoration: none;
+}
+
+.testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonios-item{
+    display: flex;
+    position: relative;
+    width: 27%;
+    height: 100px;
+    align-items: center; 
+    justify-content: space-around;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.2);
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+
+.testimonios-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.testimonios-item h1 {
+    color: #c10101;
+    font-size: 1.3rem;
+}
+
+.testimonios-item p {
+    color: #7b7b7b;
+}
+.stars {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: #c10101;
+}
